@@ -1,6 +1,6 @@
 # FaceChain Frontend
 
-Responsive HH Goa-themed observatory for the complete FaceChain pipeline. It sends a consented JPG,
+Responsive Linux Labs observatory for the complete FaceChain pipeline. It sends a consented JPG,
 PNG, or WebP image to the original `/api/runs` endpoint and requests a real-time event stream. The
 interface displays the detected face, exact search crop, Google Lens candidate images, SFace scores,
 resolved social handles with provenance labels, evidence hashes, and blockchain receipt.

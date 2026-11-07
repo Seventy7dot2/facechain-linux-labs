@@ -35,7 +35,7 @@ test("server-renders the FaceChain product shell", async () => {
   assert.match(html, /SEE THE SEARCH/);
   assert.match(html, /RUN FACECHAIN/);
   assert.match(html, /REAL EVENT FEED/);
-  assert.match(html, /HH GOA · TASK 03/);
+  assert.match(html, /Linux Labs/);
 });
 
 test("removes the disposable starter preview", async () => {

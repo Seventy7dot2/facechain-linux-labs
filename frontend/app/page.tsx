@@ -276,7 +276,7 @@ export default function Home() {
       <header className="nav shell">
         <a className="wordmark" href="#top"><span className="mark">FC</span> FACECHAIN LIVE</a>
         <div className="nav-meta">
-          <span>HH GOA · TASK 03</span>
+          <span>Linux Labs</span>
           <span className={`engine-pill ${online === false ? "offline" : ""}`}>
             <i />{online === null ? "CONNECTING" : online ? "ENGINE ONLINE" : "ENGINE UNREACHABLE"}
           </span>
@@ -367,7 +367,7 @@ export default function Home() {
           <p className="final-caveat">Face similarity and public metadata support the association; they do not prove account ownership. Open each destination to review the evidence directly.</p>
         </div>
       </section>}
-      <footer><div className="shell footer-inner"><b>FC / FACECHAIN LIVE</b><span>HH GOA · WATCH THE ARCHITECTURE WORK.</span><span>FACE → SEARCH → MATCH → PROOF</span></div></footer>
+      <footer><div className="shell footer-inner"><b>FC / FACECHAIN LIVE</b><span>Linux Labs · WATCH THE ARCHITECTURE WORK.</span><span>FACE → SEARCH → MATCH → PROOF</span></div></footer>
     </main>
   );
 }
